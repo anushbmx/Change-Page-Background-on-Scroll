@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Sans-Pro';
+  font-weight: normal;
+  src: url('fonts/SourceSansPro-Light.otf');
+  src: url('fonts/SourceSansPro-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Sans-Pro';
+  src: url('fonts/SourceSansPro-Bold.otf');
+  src: url('fonts/SourceSansPro-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
