@@ -1,0 +1,80 @@
+/* Small tweek to make the following work in Techstream Demo template */
+#main-header{
+	background-color: #fff;
+	position: fixed;
+	z-index: 2;
+}
+
+#carbonads{
+	background-color: rgba(255, 255, 255,0.4);
+	right: 20px;
+	position: fixed;
+	top: 100px;
+	width: 180px;
+	z-index: 2;
+}
+
+@media(max-width:768px){
+	#carbonads{
+		z-index: 0;
+	}
+}
+
+/* To get content below the demo header bar */
+#Container{
+	margin-top: 70px;
+}
+
+/* Style for Demo */
+
+body{
+	background: rgba(44, 62, 80,1.0);
+}
+
+#Container{
+  height: 100%;
+}
+
+.slide{
+	border-bottom: 2px solid rgba(255,255,255,1);
+}
+
+.slide1{
+  height: 700px;
+}
+
+.slide2{
+  height: 1000px;
+}
+
+.slide3{
+  height: 700px;
+}
+
+.slide4{
+	height: 400px;
+}
+
+.main-container{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.container-wrap{
+	display: table-cell;
+	vertical-align: middle;
+}
+.playground{
+	height: 100px;
+	line-height: 100px;
+	margin: 0 auto;
+	text-align: center;
+	width: 530px;
+}
+
+h1,p{
+	color: rgba(255,255,255,1);
+}
+h1{
+	line-height: 2rem;
+}
