@@ -29,6 +29,7 @@
 
 body{
 	background: rgba(44, 62, 80,1.0);
+	transition: background-color 500ms 0s;
 }
 
 #Container{

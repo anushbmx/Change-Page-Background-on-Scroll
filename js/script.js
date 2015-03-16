@@ -12,6 +12,7 @@ $(document).ready(function(){
 
     sumHeight= sumHeight + siblings[i].clientHeight;
   }
+  processScroll();
 
   function lessThan(nums, key){
     if(nums == null || nums.length == 0 || key ==0 ) 
@@ -31,7 +32,7 @@ $(document).ready(function(){
 
   var scroll_pos = 0;
 
-  $(document).scroll(function() { 
+  function processScroll() { 
     scroll_pos = $(this).scrollTop();
 
     var presetHeights = Object.keys(perset);
@@ -40,5 +41,7 @@ $(document).ready(function(){
     if(bgColor) {
       $("body").css('background-color',bgColor);
     }
-  });
+  }
+
+  $(document).scroll(processScroll);
 });
