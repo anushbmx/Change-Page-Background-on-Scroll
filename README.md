@@ -1,9 +1,9 @@
-----Article Name ----
+Change Page Background on User Scroll
 ================
 
-----Article Name ---- 
+Change Page Background on User Scroll 
 
-This is a demo code to ----Article Name ---- made for article on Techstream ----Article Link----
+This is a demo code to Change Page Background on User Scroll made for article on Techstream http://techstream.org/Web-Development/Javascript/Change-Page-Background-on-Scroll
 
 Credits
 -------
